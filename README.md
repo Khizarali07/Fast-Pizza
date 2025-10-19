@@ -1,8 +1,23 @@
-# React + Vite
+﻿# Fast Pizza (Course project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small e-commerce / menu demo built with Vite + React. It focuses on state management patterns, adding items to cart and a checkout flow for UI practice.
 
-Currently, two official plugins are available:
+## Key features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Menu list and product cards
+- Add to cart with quantity management
+- Lightweight cart checkout UI
+
+## Tech
+
+- React + Vite
+- CSS / Tailwind (if included)
+
+## Run locally
+
+1. Install dependencies: `npm install`
+2. Start dev server: `npm run dev`
+
+## Notes
+
+- If Tailwind is present, ensure `postcss` and `tailwind.config.js` are configured when installing dependencies.
